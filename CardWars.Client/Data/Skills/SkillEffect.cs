@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CardWars.Client.Data
+namespace CardWars.Client.Data.Skills
 {
-    public class Item
+    public abstract class SkillEffect
     {
-        public Guid Id { get; set; }
+        public SkillTarget Target { get; set; }
     }
 }

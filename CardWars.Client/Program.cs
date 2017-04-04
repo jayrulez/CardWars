@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CardWars.Client;
+using System;
 
 namespace CardWars
 {

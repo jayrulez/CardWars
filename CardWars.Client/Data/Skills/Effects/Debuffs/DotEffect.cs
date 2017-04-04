@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CardWars.Client.Data
+namespace CardWars.Client.Data.Skills.Debuffs
 {
-    public enum SkillType
+    public class DotEffect : SkillEffect
     {
     }
 }

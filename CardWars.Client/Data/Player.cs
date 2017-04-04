@@ -11,11 +11,11 @@ namespace CardWars.Client.Data
         public Guid Id { get; set; }
         public string UserName { get; set; }
 
-        public IList<Card> Cards { get; set; }
+        public IList<Unit> Units { get; set; }
 
         public Player()
         {
-            Cards = new List<Card>();
+            Units = new List<Unit>();
         }
     }
 }

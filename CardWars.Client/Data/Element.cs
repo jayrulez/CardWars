@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace CardWars.Client.Data
 {
-    public class Card
+    public enum Element
     {
-        public Guid Id { get; set; }
-        public string Name { get; set; }
+        Fire,
+        Water,
+        Wind
     }
 }
