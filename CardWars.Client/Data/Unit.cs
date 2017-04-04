@@ -13,6 +13,8 @@ namespace CardWars.Client.Data
 
         public string Name { get; set; }
 
+        public UnitType Type { get; set; }
+
         public Element Element { get; set; }
 
         public int Grade { get; set; }

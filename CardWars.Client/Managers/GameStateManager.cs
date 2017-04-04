@@ -22,12 +22,13 @@ namespace CardWars.Client.Managers
                     new Unit
                     {
                         Id = Guid.NewGuid(),
+                        Type = UnitType.Attack,
                         Name = "Mihael",
                         Element = Element.Fire,
                         Grade = 3,
                         HitPoints = 300,
-                        Attack = 100,
-                        Defense = 100,
+                        Attack = 105,
+                        Defense = 95,
                         Speed = 100,
                         Level = 1,
                         Skill1 = new Skill
@@ -44,11 +45,14 @@ namespace CardWars.Client.Managers
                                 {
                                     Target = SkillTarget.SingleEnemy
                                 }
-                            }
+                            },
+                            CoolDownTurns = 3,
+                            MaximumCoolDownTurns = 3,
+                            MinimumCoolDownTurns = 1
                         },
-                        Skill2 = new Skill(),
-                        Skill3 = new Skill(),
-                        Skill4 = new Skill()
+                        Skill2 = null,
+                        Skill3 = null,
+                        Skill4 = null
                     }
                 }
             };

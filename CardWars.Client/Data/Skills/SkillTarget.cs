@@ -9,9 +9,11 @@ namespace CardWars.Client.Data.Skills
     public enum SkillTarget
     {
         SingleEnemy,
+        RandomEnemy,
         AllEnemies,
         SingleAlly,
-        Allies,
+        RandomAlly,
+        AllAllies,
         Self
     }
 }

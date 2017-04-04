@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CardWars.Client.Data.Skills.Debuffs
+namespace CardWars.Client.Data
 {
-    public class DamageEffect: SkillEffect
+    public enum UnitType
     {
+        HitPoints,
+        Attack,
+        Defense,
+        Support
     }
 }

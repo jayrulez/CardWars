@@ -21,5 +21,11 @@ namespace CardWars.Client.Data.Skills
         public SkillTarget Target { get; set; }
 
         public IList<SkillEffect> Effects { get; set; }
+
+        public int MinimumCoolDownTurns { get; set; }
+
+        public int MaximumCoolDownTurns { get; set; }
+
+        public int CoolDownTurns { get; set; }
     }
 }
